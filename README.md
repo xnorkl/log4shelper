@@ -32,17 +32,6 @@ Run logshellper.py
 Check results. If the target show up on the attacker's server, the target is exploitable.
 ![Imgur](https://i.imgur.com/jZYjjmV.png)
 
-### TODO
-parse .csv file (i.e. exported form censys.io) to build targets.
-add obfu option.
-
-### Thanks
-I'd like to thank the teams at Huntress.com, Lunasec.io
-and everybody else who shared their research and efforts.
-
-### TODO
-parse .csv file (i.e. exported form censys.io) to build targets.
-
 ### Thanks
 I'd like to thank the teams at Huntress.com, Lunasec.io
 and everybody else who shared their research and efforts.
@@ -51,3 +40,7 @@ and everybody else who shared their research and efforts.
 https://www.huntress.com/blog/rapid-response-critical-rce-vulnerability-is-affecting-java   
 https://www.lunasec.io/docs/blog/log4j-zero-day/  
 https://github.com/drahosj/log4shell-vulnerable-app
+
+### TODO
+parse .csv file (i.e. exported form censys.io) to build targets.
+add obfu option.
