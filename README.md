@@ -32,8 +32,7 @@ Run logshellper.py
 
 
 Check results. If the target show up on the attacker's server, the target is exploitable.
-[Imgur](https://i.imgur.com/txashNw.png)
-
+![Imgur](https://i.imgur.com/jZYjjmV.png)
 
 ### TODO
 parse .csv file (i.e. exported form censys.io) to build targets.
