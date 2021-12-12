@@ -37,6 +37,7 @@ Check results. If the target show up on the attacker's server, the target is exp
 
 ### TODO
 parse .csv file (i.e. exported form censys.io) to build targets.
+add obfu option.
 
 ### Thanks
 I'd like to thank the teams at Huntress.com, Lunasec.io
