@@ -1,11 +1,3 @@
-<<<<<<< Updated upstream
-=======
----
-title: "README"
-tags: ""
----
->>>>>>> Stashed changes
-
 # Little Log4Shellper
 
 Simple tool I wrote on a pleasant Sunday afternoon.  
